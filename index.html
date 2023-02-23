@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <title>EchoBoard</title>
+    <link rel="icon" href="content/assets/icon.png" type="image/png" sizes="16x16">
+
+    <!-- Style Registrations -->
+    <link rel="stylesheet" type="text/css" href="content/css/site.css">
+</head>
+
+<body>
+    <main>
+        <div id="app"></div>
+    </main>
+</body>
+
+</html>
+
+<script type="module">
+    import { createApp } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
+    import Application from "./content/js/components/application.js";
+    createApp(Application).mount('#app')
+</script>
